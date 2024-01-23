@@ -1,0 +1,761 @@
+nav{
+background-color: rgba(7, 43, 154, 0.933);
+
+}
+
+body{
+ padding: 0px;
+ margin: 0px;   
+}
+
+.Konatowebsite{
+    gap: 20px;
+    display: flex;
+    padding: 10px;
+    color: white;
+    font-style: normal;
+    justify-content: space-between;
+    width:80%;
+    margin: 0px auto;
+    align-items: center;
+
+}
+
+.Konato{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+    
+    
+}
+
+.Konato svg{
+    height: 30px;
+    width:30px;
+}
+
+.Plug{
+  background-color:rgb(8, 195, 237);
+  padding:10px 25px ;  
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(8, 195, 237) ;
+  transition: all .5s ease-in-out;
+
+}
+
+.Plug:hover{
+    color:rgb(8, 195, 237);
+    background-color: transparent;
+    
+  
+  }
+.site span{
+ text-decoration: underline; 
+}
+
+
+.site{
+ display: flex;  
+ gap: 20px;
+ align-items: center; 
+}
+
+.sc{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: fit-content;
+    margin: 0px auto;
+    padding: 20px 10px;
+    justify-content: space-between;
+}
+
+.EnterKeyword{
+ background-color:transparent;  
+ border: 1px solid black; 
+ padding: 5px 35px;
+ font-size: 18px;
+ color:black;
+ border-radius: 5px;
+ font-size: 15px;
+ width: 300px;
+ display: flex;
+ align-items: center;
+
+ 
+}
+
+.EnterKeyword svg{
+    height: 30px;
+    width: 30px;
+    color: gray;
+  
+}
+.EnterKeyword input{
+    flex: 1;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+}
+.Rent{
+    background-color:transparent;  
+    border: 1px solid black;  
+ padding: 15px 35px;
+ border-radius: 5px;
+ font-size: 15px;
+}
+
+.Bed{
+    background-color:transparent;  
+    border: 1px solid black;;   
+    padding: 15px 35px;
+    border-radius: 5px; 
+    font-size: 15px;  
+}
+
+.Bath{
+    background-color:transparent;  
+    border: 1px solid black;  
+    padding: 15px 35px;
+    border-radius: 5px;  
+    font-size: 15px;
+}
+
+.Search{
+ background-color:rgba(7, 43, 154, 0.933);   
+ padding: 15px 35px;
+ border-radius: 5px;
+ color: white;
+ font-size: 15px;
+ cursor: pointer;
+}
+.Image{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    
+}
+
+.Image::after{
+    position: absolute;
+    content: "";
+    contain: "";
+    height: 100%;
+    background-image:linear-gradient(to right,black,rgba(36, 30, 30,0));
+    width: 100%;
+
+}
+
+.Total{
+    margin-left: 15%;
+    margin-bottom:10%;
+    display: grid;
+    gap: 10px;
+    position: relative;
+    z-index: 100;
+    color:white;
+
+}
+
+.LightHouseNY{
+ font-size: 60px;  
+ font-weight: 500;
+}
+
+.Amount{
+ font-size: 40px;
+ font-weight: 400;   
+}
+
+.ViewProperty{
+    background-color:rgb(8, 195, 237);
+    padding: 10px 20px;  
+    font-size:20px; 
+    width: fit-content;   
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(8, 195, 237) ;   
+    transition: all .5s ease-in-out;
+}
+
+.Available{
+    font-size: 20px;
+    font-weight:7600;
+
+}
+
+.Getstarted{
+    font-weight: 500;
+    font-size:20px;
+}
+
+.Figure{
+   display: grid; 
+   align-items: center;
+   margin-left: 30%;
+   gap: 15px;
+   font-style: initial;
+}
+
+
+.Feature{
+ display: flex;  
+ font-weight: 500; 
+ font-size: 40px;
+ color:rgb(1, 1, 35);
+}
+
+.Started{
+font-weight: 100;
+font-size: 20px;
+width: 45%;
+text-align: center;
+margin-left:5%;
+color: rgb(80, 83, 85);
+
+}
+.HomeType{
+  
+ width: 80%;
+ margin: 20px auto; 
+ display: grid;
+ grid-template-columns:34% 33% 34% ;
+ gap: 40px;
+
+ 
+}
+
+.imagesCard{
+    height: 200px;
+    width: 100%;
+}
+.imagesCard img{
+    height: 100%;
+    width: 100%;
+}
+
+.Appartment{
+    border: 1px solid gray;
+    display: grid;
+    color:black;
+    
+}
+
+.dollar{
+    color:darkcyan;
+    
+}
+
+.room{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.Over{
+    padding: 16px 30px; 
+    display: grid;
+    gap: 20px;
+    position: relative;
+    z-index: 100;
+    border-bottom: 1px solid darkcyan;
+
+    
+}
+
+.Property{
+    color: darkcyan;   
+   }
+
+   .Details{
+    display: flex;
+    gap: 70px;
+    padding: 20px 15px;
+    position: relative;
+    
+    
+
+}
+.Image1{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://media.designcafe.com/wp-content/uploads/2019/12/09102702/modern-living-room-design-with-tv-unit-designed-with-storage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    /* flex-direction:column;
+    justify-content: center; */
+    gap: 0px;
+    padding: 30px 0px;
+    position: relative;
+    
+}
+
+.Image1::after{
+    content: "";
+    contain: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(3, 3, 65, 0.532);
+    
+    top: 0px;
+    left: 0px;
+}
+.Inside{
+  width: 70%;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px auto;
+    position: relative;
+    z-index: 1;
+    color:white;
+    text-align: center;
+    
+   
+    
+
+}
+
+.help{
+   font-size: 50px; 
+   font-weight: 500;
+   padding-bottom: 40px;
+
+}
+.Sale{
+    justify-content: center;
+    display: flex;
+    size: 30px;
+    gap: 20px;
+    border: 1px solid rgb(15, 179, 208);
+    height: 300px;
+    position: relative;
+    flex-direction: column;
+    
+    
+}
+.helpinfo{
+    background-color:rgb(8, 171, 200);
+    padding: 10px;
+    display: flex;
+    gap:100px;
+
+}
+
+.Fresh{
+    font-size: 15px;
+    
+}
+.New{
+font-size: 30px;
+font-weight:400;
+}
+
+.Sale svg{
+
+height: 55px;
+width: 55px;
+
+
+}
+
+.Aware{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 500;
+    gap: 20px;
+    padding-top: 60px;
+    color: black;
+
+}
+.Hat{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 30% 65%;
+    gap: 45px;
+    align-items: center;
+    margin: 0px auto;
+
+   
+       
+    
+}
+
+.Explore{
+    font-size: 45px;
+    font-weight: 600;
+    gap: 30px;
+   
+    
+}
+.Shirt{
+ background-color:rgb(8, 195, 237);
+ padding: 10px 30px;  
+ font-size:20px; 
+ width: fit-content;   
+ color: white;
+ border-radius: 5px;
+ cursor: pointer;
+ border: 1px solid rgb(8, 195, 237) ;   
+ transition: all .5s ease-in-out;
+
+}
+.Fry{
+    display: grid;
+    gap: 32px;
+    
+   
+
+}
+.Boot{
+  color: darkcyan;  
+  font-size: 18px;
+  
+ 
+  
+
+}
+
+
+.Monkey{
+display: grid;
+grid-template-columns: 23% 23% 23% 23%;
+justify-content: center ;
+gap: 30px;
+width: 80%;
+margin: 0px auto;
+
+
+}
+
+.Manage{
+/* padding: 20px 20px; */
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.Manage svg{
+    height: 80px;
+    width: 80px;
+    color: rgb(54, 132, 241);
+ 
+}
+
+.Fine{
+ font-size: 16px; 
+ font-weight: 500;
+ 
+}
+
+.Little{
+    display: grid;  
+    color:rgb(1, 1, 35);
+    text-align: center;
+    gap: 20px;
+    padding-top:10%;
+
+
+}
+
+.Agents{
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+   
+}
+
+.Pitch{
+    font-weight: 100;
+    font-size: 20px;
+    width: 45%;
+    text-align: center;
+    margin-left:5%;
+    color: rgb(80, 83, 85);
+    padding-left: 22%;
+    
+}
+
+.Ending{
+    display: flex;
+    gap: 0px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.Hijack{
+    padding-bottom: 5%;
+}
+
+.Photo{
+
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    padding-right: 3% 3%;
+    
+    margin-left: 45px;
+    
+    
+ }
+ .Name{
+ margin-left: 40%;
+ font-size: 30px;
+ font-size: 500;
+ padding-top: 25px;
+ }
+
+ .Hungry{
+    margin-left:100px;
+    color: darkcyan;
+    font-size: 20px;
+ }
+
+.gimmy input{
+background-color: transparent;
+border: none;
+outline-style: none;
+border-bottom: 2px solid white;
+padding: 7px;
+color: white;
+width: 100%;
+gap: 20px;
+
+}
+.gimmy input::placeholder{
+    color: white;
+    font-size: 15px;
+   
+}
+
+.gimmy{
+    display: grid;
+    gap: 25px;
+}
+
+ .Follow{
+    background-color:rgb(5, 65, 107) ;
+    display: grid;
+    grid-template-columns: 50% 48%;
+    gap: 30px;
+    
+}
+.newcgd{
+padding-left: 50px;
+padding-top: 70px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+
+ .News{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+
+}
+
+ .Billi{
+font-size: 20px;
+font-weight: 300;
+color: white;
+ }
+
+ .ghar img{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.jhumka{
+   background-color: rgb(8, 195, 237);
+   padding: 12px 30px;
+   font-size: 20px;
+   width: fit-content;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+    
+    
+}
+
+.end svg{
+    height:50px;
+    width:50px;
+    color: rgb(59, 117, 233);
+    
+}
+
+.end{
+    display: flex;
+    font-size: 40px;
+    font-style: inherit;
+    align-items: center;
+    font-weight: 550;
+    cursor: pointer;
+    gap: 10px;
+    padding-top: 50px;
+    padding-left: 12%;
+}
+
+.Jazz{
+    display: flex;
+    padding-left: 12%;
+    padding-top:30px ;
+    color: darkcyan;
+    
+}
+
+.logo svg{
+    height: 20px;
+    width: 20px;
+    color: rgb(198, 198, 198);
+}
+
+.logo{
+    display: flex;
+    padding-left: 12%;
+    padding-top: 30px;
+    gap: 10px;
+}
+
+.Okhla{
+    display: flex;
+    gap: 30px;
+}
+
+.Popot{
+display: flex;
+gap: 70px;
+margin-top: 50px;
+
+
+}
+.Nav{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+.Jasmine{
+    display: grid;
+    flex-direction: column;
+    gap: 20px;
+    color:darkcyan;
+    font-size: 15px;
+    font-weight: 100;
+    
+}
+
+.Navigation{
+    font-size: 40px;
+}
+
+.sakio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.hudaina{
+font-size: 20px;
+font-weight: 600;
+gap: 40px;
+
+
+}
+
+.Love{
+    color:red;
+    font-size: 20px;
+
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width:600px){
+        .Konatowebsite{
+            gap: 0px;
+            padding: 10px;
+            width:90%;
+        
+        }
+        
+        .Home,.Property,.About,.Blog,.Contact{
+            display: none;
+            
+            
+        }    
+} */
+
+
+
+
+
