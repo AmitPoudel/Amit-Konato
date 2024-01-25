@@ -8,6 +8,7 @@ body{
  margin: 0px;   
 }
 
+
 .Konatowebsite{
     gap: 20px;
     display: flex;
@@ -44,7 +45,7 @@ body{
   border-radius: 5px;
   cursor: pointer;
   border: 1px solid rgb(8, 195, 237) ;
-  transition: all .5s ease-in-out;
+  transition: all .2s ease-in-out;
 
 }
 
@@ -63,6 +64,7 @@ body{
  display: flex;  
  gap: 20px;
  align-items: center; 
+ border-color: darkcyan;
 }
 
 .sc{
@@ -77,7 +79,7 @@ body{
 
 .EnterKeyword{
  background-color:transparent;  
- border: 1px solid black; 
+ border: 1px solid darkcyan; 
  padding: 5px 35px;
  font-size: 18px;
  color:black;
@@ -103,29 +105,14 @@ body{
     outline: none;
     padding: 10px 0px;
 }
-.Rent{
-    background-color:transparent;  
-    border: 1px solid black;  
- padding: 15px 35px;
- border-radius: 5px;
- font-size: 15px;
-}
 
-.Bed{
-    background-color:transparent;  
-    border: 1px solid black;;   
-    padding: 15px 35px;
-    border-radius: 5px; 
-    font-size: 15px;  
-}
 
-.Bath{
-    background-color:transparent;  
-    border: 1px solid black;  
-    padding: 15px 35px;
-    border-radius: 5px;  
-    font-size: 15px;
-}
+
+
+
+
+
+
 
 .Search{
  background-color:rgba(7, 43, 154, 0.933);   
@@ -163,7 +150,7 @@ body{
     margin-left: 15%;
     margin-bottom:10%;
     display: grid;
-    gap: 10px;
+    gap: 22px;
     position: relative;
     z-index: 100;
     color:white;
@@ -209,6 +196,7 @@ body{
    margin-left: 30%;
    gap: 15px;
    font-style: initial;
+   padding-top: 80px;
 }
 
 
@@ -227,6 +215,7 @@ text-align: center;
 margin-left:5%;
 color: rgb(80, 83, 85);
 
+
 }
 .HomeType{
   
@@ -235,9 +224,60 @@ color: rgb(80, 83, 85);
  display: grid;
  grid-template-columns:34% 33% 34% ;
  gap: 40px;
+ padding-top: 30px;
+
 
  
 }
+
+.Rent{
+    
+    border: 1px solid darkcyan;  
+ padding: 17px 35px;
+ border-radius: 5px;
+ 
+}
+.Bistara svg{
+    height: 25px;
+    width: 25px;
+    color: rgb(151, 211, 207);
+    padding-bottom: 5px;
+}
+.Bistara{
+    display: flex;
+    border: 1px solid darkcyan;
+    padding: 10px 20px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+
+.Beds{
+  
+
+    font-size: 15px;
+}
+
+.art{
+ display: flex;   
+ border: 1px solid darkcyan;
+ padding: 10px 20px;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ border-radius: 5px;
+ 
+}
+
+.art svg{
+    height: 25px;
+    width: 25px;
+    color: rgb(151, 211, 207);
+    padding-bottom: 5px;
+}
+
 
 .imagesCard{
     height: 200px;
@@ -283,14 +323,96 @@ color: rgb(80, 83, 85);
    }
 
    .Details{
-    display: flex;
-    gap: 70px;
-    padding: 20px 15px;
-    position: relative;
+    display: flex; 
+    /* gap: 1px; */
+    /* padding: 10px 20px; */
+    
+    
+    
+    /* background-color:blue; */
+    /* padding-right: 25px; */
+    
+    
+    
+    
     
     
 
 }
+.Assam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+
+.Assam svg{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    color: rgb(151, 211, 207);
+   
+
+}
+
+.Apple svg{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    color: rgb(151, 211, 207);    
+}
+
+.Apple{
+    display: flex;
+    padding: 10px 20px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center}
+
+
+
+
+  .Litchi svg{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    color: rgb(151, 211, 207); 
+  }  
+
+  .Litchi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+   
+  
+
+.ab{
+    display: flex;
+    width: 80px;
+    /* width: fit-content; */
+    
+    
+    
+    
+}
+
+.bc{
+    display: flex;
+    width: 80px;
+}
+
+.cd{
+    display: flex;
+    width: 100px;
+    
+}
+
+
 .Image1{
     height: 100%;
     width: 100%;
@@ -676,6 +798,7 @@ margin-top: 50px;
     align-items: center;
     justify-content: center;
     margin-top: 90px;
+    color: darkcyan;
 }
 
 .hudaina{
