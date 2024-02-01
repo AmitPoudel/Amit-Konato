@@ -1,12 +1,21 @@
 .sites{
 background-color: rgba(7, 43, 154, 0.933);
 width: 100%;
+display: flex;
+justify-content: space-between;
 
 }
 
 body{
  padding: 0px;
- margin: 0px;   
+ margin: 0px;  
+ display: grid;
+ gap: 30px; 
+}
+
+.navmenu{
+    display: flex;
+    gap: 10px;
 }
 
 
@@ -19,6 +28,8 @@ body{
     justify-content: space-between;
     width:100%;
     margin: 0px auto;
+    background-color: rgba(7, 43, 154, 0.933);
+
     align-items: center;
 
 }
@@ -129,7 +140,7 @@ body{
     background-image: url("https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=600");
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
@@ -293,6 +304,8 @@ color: rgb(80, 83, 85);
     border: 1px solid gray;
     display: grid;
     color:black;
+
+
     
 }
 
@@ -325,6 +338,7 @@ color: rgb(80, 83, 85);
 
    .Details{
     display: flex; 
+    /* background-color: red; */
     /* gap: 1px; */
     /* padding: 10px 20px; */
     
@@ -368,7 +382,7 @@ color: rgb(80, 83, 85);
 
 .Apple{
     display: flex;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     gap: 5px;
     align-items: center;
     justify-content: center}
@@ -387,6 +401,7 @@ color: rgb(80, 83, 85);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: red;
 
     }
    
@@ -420,7 +435,7 @@ color: rgb(80, 83, 85);
     background-image: url("https://media.designcafe.com/wp-content/uploads/2019/12/09102702/modern-living-room-design-with-tv-unit-designed-with-storage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
+    display: none;
     /* flex-direction:column;
     justify-content: center; */
     gap: 0px;
@@ -811,7 +826,7 @@ gap: 40px;
 }
 
 .Love{
-    color:red;
+    color:pink;
     font-size: 20px;
 
 }
@@ -819,7 +834,9 @@ gap: 40px;
 
 
 
-
+.Headache{
+    display: none;
+}
  
 
 
@@ -857,7 +874,76 @@ gap: 40px;
 
 
 
+@media(max-width:768px){
 
+    .Konatowebsite{
+        display: flex;
+        flex-direction: column; 
+        background-color: white;
+        padding: 0px;
+        
+        
+    }
+
+    .sites{
+        padding: 6px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Headache{
+        display: block;
+    }
+
+    .Headache svg{
+        height: 5vh;
+        width: 5vw;
+        cursor: pointer;
+       
+    }
+
+    .CallUs{
+        color: black;
+        font-size: 15px;
+    }
+   
+    
+
+    .navmenu{
+        display: none;
+    }
+
+    .sc{
+        display: flex;
+        flex-direction: column;
+     
+    }
+
+    .Image{
+        height: 60vh;
+        width: 100%;
+    }
+
+    .Total{
+      
+    }
+
+    .Figure{
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+    }
+
+    
+
+    
+
+
+
+.HomeType, .Image1, .topic,.Hat,.Little,.Ending,.Follow,.Okhla, .sakio{
+    display: none;
+}
+
+}
 
 
 
@@ -868,20 +954,38 @@ gap: 40px;
      .Konatowebsite{
            display:flex;
            flex-direction: column;
+           padding:0px;
            
            
-           
-        
+        }
+
+        .sites{
+            display: flex;
+            justify-content: space-between;
         }
         .site{
-            display:grid;
+            display:flex;
+            justify-content: center;
             width: 100%;
             color: black;
-           
+        
             
         }
 
-       
+        .Headache svg {
+            height: 5vh;
+            width: 5wh;
+            cursor: pointer;
+
+        }
+
+       .Figure{
+        display: grid;
+        grid-template-columns: 100%;
+        margin-left: 0%;
+        gap: 10px;
+        padding-top: 0px;
+       }
 
         .Call{
             font-size: 15px;
@@ -893,35 +997,81 @@ gap: 40px;
             width: fit-content;
         }
 
+        
     
         .navmenu{
             display: none;
         }   
        
         .sc{
-           display: grid; 
+           display: flex; 
            /* margin-right: 20%; */
-           width: 100%;
+           width: 90%;
+           margin: 0px auto;
+           margin-top: 10px;
+           padding: 0px;
         }
 
         .Main{
             /* margin-right: 65%; */
-            align-items: center;
+            text-align: center;
+            width: 100%;
 
         }
 
         .Total{
             /* padding-right: 20%; */
-            gap: 40px;
-            font-size: 50px;
-            
+            gap: 18px;
+            font-size: 20px;
+            margin-left: 0%;
+            margin-bottom:0%;
+            margin: 0px auto;
+            width: 90%;
+
+       
+  
+        }
+
+        .Rent{
+            text-align: center;
+        }
+
+        .Available{
+            font-size: 15px;
+        }
+
+        .ViewProperty{
+            font-size: 15px;
+        }
+
+        .Amount{
+            font-size: 15px;
+        }
+
+        .Getstarted{
+            font-size:15px ;
+        }
+
+        .LightHouseNY{
+            font-size: 25px;
         }
         
 
         .Feature{
             display: flex;
             flex-direction: row;
+            font-size: 25px;
+            text-align: center;
+        justify-content: center;
             
+        }
+
+        .Started{
+width: 90%;
+text-align: center;
+margin-left:0%;
+margin: 0px auto;
+font-size: 16px;
         }
 
         
@@ -929,12 +1079,59 @@ gap: 40px;
         .HomeType{
             display: grid;
             grid-template-columns: 100%;
+            place-content: center;
+            padding: 0px;
+            width: 90%;
+            
         }
-
+        .Appartment{
+            border: 1px solid gray;
+            display: grid;
+            color:black;
+        
+        
+            
+        }
+      
+        .Assam{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            padding: 10px 0px;
+            
+            
+        }
+        
+        
+        
+        .Assam svg{
+            display: flex;
+            height: 20px;
+            width: 20px;
+            color: rgb(151, 211, 207);
+           
+        
+        }
+        .ab{
+            display: flex;
+            width: fit-content;
+            align-items: center;
+            font-size: 14px;
+            /* width: fit-content; */
+            
+            
+            
+            
+        }
+        
         .Image{
 
-            height: 70vh;
+            display: flex;
+            height: fit-content;
             width: 100%;
+            padding: 40px 0px;
         }
         .Image1{
           height: fit-content;
@@ -953,6 +1150,14 @@ gap: 40px;
             gap: 5px;
            
         }
+
+        .Hijack{
+            align-items: center;
+            place-content: center;
+            
+        }
+
+       
        
         .Fry{
             display: flex;
@@ -980,34 +1185,47 @@ gap: 40px;
         }
 
         .Ending{
-            display: grid;
+            display: none;
             
         }
 
         .Follow{
-            display: grid;
+            display: none;
         }
         
         .Okhla{
-            display: grid;
+            display: none;
 
         }
-       
-        
-       
 
+        .Hat{
+            display: none;
+            grid-template-columns: 100%;
+            place-content: center;
+        }
+
+        .Follow{
+            display: none;
+            grid-template-columns: 100%;
+        }
+       
+         
         
        .Popot{
         display: flex;
+        flex-direction: column;
        }
 
         
       .sakio{
             display: none;
+            flex-direction: column;
+            row-gap: 0px;
+           
             
             
         }    
-}
+    }
 
 
 
