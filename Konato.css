@@ -883,18 +883,21 @@ gap: 40px;
         padding: 0px;
         
         
+        
     }
 
     .sites{
-        padding: 6px 0px;
         display: flex;
+        padding: 6px 0px;
         justify-content: space-between;
     }
     .Headache{
-        display: block;
+    
+        
     }
 
     .Headache svg{
+    
         height: 5vh;
         width: 5vw;
         cursor: pointer;
@@ -904,12 +907,14 @@ gap: 40px;
     .CallUs{
         color: black;
         font-size: 15px;
+        
     }
    
     
 
     .navmenu{
-        display: none;
+        display: flex;
+        margin-right: 25px;
     }
 
     .sc{
@@ -928,9 +933,117 @@ gap: 40px;
     }
 
     .Figure{
+       
+        margin: 0px auto;
+        gap: 15px;
+        padding-top: 0px;
+        align-items: center;
         display: flex;
         flex-direction: column;
-        place-content: center;
+    }
+
+    .Feature{
+      
+        font-size: 25px; 
+        font-weight: 400; 
+     
+    }
+
+    .HomeType{
+        
+        width: 95%;
+        margin: 0px auto; 
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+    
+        
+    }
+
+    .Image1{
+      
+    
+    }
+
+    .Inside{
+        width: 100%;
+        font-size: 10px;
+        font-weight: 200;
+        margin: 0px auto;
+        position: relative;
+        z-index: 1;
+        color:white;
+        text-align: center;
+    }
+
+   
+
+    .Sale svg{
+        height: 30px;
+        width: 30px;
+    }
+
+    .help{
+        font-size: 30px; 
+        font-weight: 200;
+        padding-bottom: 20px;
+    }
+
+  
+    
+
+    .topic{
+        
+    }
+
+    .Hat{
+   
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 70px;
+
+    margin:auto;
+    }
+
+    .Fry{
+
+        align-items: center;
+    }
+
+   
+    .Little{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Ending{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        place-items: center;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    .Follow{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .Okhla{
+        display: grid;
+        grid-template-columns:33% 33% 33% 33%;
+    }
+
+    .Popot{
+        display: grid;
+        grid-template-columns: 70% 25%;
+    }
+
+    
+
+    .sakio{
+        display: flex;
+        flex-direction: column;
     }
 
     
@@ -1057,7 +1170,7 @@ gap: 40px;
             flex-direction: row;
             font-size: 25px;
             text-align: center;
-        justify-content: center;
+            justify-content: center;
             
         }
 
@@ -1206,9 +1319,7 @@ font-size: 16px;
                font-size: 20px;
             }
 
-        .Follow{
-            
-        }
+        
         
         .Okhla{
           display: grid;  
